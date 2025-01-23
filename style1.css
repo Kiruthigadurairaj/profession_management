@@ -1,0 +1,72 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+}
+
+.form-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px; 
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-width: 200px;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    border: 1px solid white;
+    padding: 10px;
+    width: 100%;
+    background: #222;
+}
+
+button {
+    margin-top: 10px; 
+    padding: 10px 22px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: hsl(200, 10%, 94%);
+    color: #000;
+}
+
+.btn-delete {
+    color: #dc3545;
+}
+
+.message {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.error {
+ color: #ff4d4d;
+}
+
+.success {
+    background-color: #28a745;
+}
+
+.employee {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #222;
+}
